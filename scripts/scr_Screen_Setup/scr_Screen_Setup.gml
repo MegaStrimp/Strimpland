@@ -14,7 +14,7 @@ function scr_Screen_Setup(argument0, argument1, argument2)
 	#endregion
 	
 	#region Gui Size
-	display_set_gui_size(viewWidth,viewHeight);
+	display_set_gui_size(viewWidth * viewScale,viewHeight * viewScale);
 	#endregion
 	
 	#region Resize Surface

@@ -11,7 +11,7 @@ global.shaders = true;
 
 global.gameWidth = 160;
 global.gameHeight = 144;
-global.windowScale = 1;
+global.windowScale = 4;
 #endregion
 
 #region Misc Variables
@@ -79,12 +79,12 @@ global.palette[palettes.rusticGB] = spr_Palette_RusticGB;
 global.palette[palettes.AYY4] = spr_Palette_AYY4;
 global.palette[palettes.wishGB] = spr_Palette_WishGB;
 
-global.paletteSprite = global.palette[palettes.grayscale];
+global.paletteSprite = global.palette[palettes.AYY4];
 global.paletteIndex = 1;
 #endregion
 
 #region Adapt Display Size To PC Screen
-global.windowScale = scr_Screen_ScaleToScreenSize(); //Set this depending on your preference
+//global.windowScale = scr_Screen_ScaleToScreenSize(); //Set this depending on your preference
 #endregion
 
 #region Screen Setup
