@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "scr_Friction",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Helpers",
-    "path": "folders/Scripts/Necessary/Helpers.yy",
+  "$GMScript":"",
+  "%Name":"scr_Friction",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_Friction",
+  "parent":{
+    "name":"Helpers",
+    "path":"folders/Scripts/Necessary/Helpers.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
